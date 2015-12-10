@@ -15,7 +15,7 @@ define([
       this.$el.addClass('view row sketch-detail');
 
       this.editor = CodeMirror.fromTextArea(this.$el.find('#edit-sketch-content')[0], {
-        lineNumbers: true,
+        lineNumbers: false,
         mode: 'clike',
         theme: 'monokai'
       });

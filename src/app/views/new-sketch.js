@@ -33,7 +33,7 @@ define([
       });
 
       this.editor = CodeMirror.fromTextArea(this.$el.find('#new-sketch-content')[0], {
-        lineNumbers: true,
+        lineNumbers: false,
         mode: 'clike',
         theme: 'monokai'
       });
