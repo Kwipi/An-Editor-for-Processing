@@ -14,11 +14,14 @@ define([
     onRender: function () {
       this.$el.addClass('view row sketch-detail');
 
-      this.editor = CodeMirror.fromTextArea(this.$el.find('#edit-sketch-content')[0], {
-        lineNumbers: false,
-        mode: 'clike',
-        theme: 'monokai'
-      });
+      var self = this;
+      setTimeout(function () {
+        self.editor = CodeMirror.fromTextArea(self.$el.find('#edit-sketch-content')[0], {
+          lineNumbers: true,
+          mode: 'clike',
+          theme: 'monokai'
+        });
+      }, 100);
     },
     events: {
       'click #edit-sketch-test': 'testSketch',
