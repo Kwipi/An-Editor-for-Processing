@@ -93,6 +93,9 @@ h1 {
 
 
 
+.static-page .btn {
+  white-space: normal;
+}
 
 #about-qr {
   text-align: center;
