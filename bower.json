@@ -131,7 +131,7 @@
     },
     "bootstrap-validator": {
       "main": [
-        "dist/js/bootstrap-validator.min.js"
+        "dist/validator.min.js"
       ]
     },
     "font-awesome": {
