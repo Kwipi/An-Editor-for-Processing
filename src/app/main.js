@@ -3,7 +3,7 @@
 define([
   'jquery', 'underscore', 'backbone', 'backbone.radio', 'marionette',
   'fastclick', 'bootstrap', 'views/navtop', 'views/footer',
-  'routers/static', 'lib/sketch'
+  'routers/static', 'components/sketch'
 ], function (
   $, _, Backbone, Radio, Marionette,
   FastClick, Bootstrap, NavTopView, FooterView,
