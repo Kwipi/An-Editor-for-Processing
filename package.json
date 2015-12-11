@@ -1,0 +1,46 @@
+{
+  "name": "an-editor-for-processing",
+  "version": "2.0.1",
+  "homepage": "http://kwipi.org/an-editor-for-processing",
+  "description": "Execute and store your Processing sketches",
+  "keywords": [
+    "processing",
+    "editor",
+    "processing.js"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://git.tiste.org:2345/kwipi/aefp.git"
+  },
+  "bugs": {
+    "url": "https://git.tiste.org/kwipi/aefp/issues"
+  },
+  "author": "Kwipi <contact@kwipi.org> (http://kwipi.org)",
+  "scripts": {
+    "build": "gulp build",
+    "coverage": "gulp coverage",
+    "test": "gulp"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^1.1.1",
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-bower": "0.0.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-download": "0.0.1",
+    "gulp-eslint": "^1.1.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-lintspaces": "^0.3.4",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-util": "^3.0.7",
+    "main-bower-files": "^2.9.0",
+    "mocha-phantomjs": "^4.0.1"
+  }
+}
