@@ -1,0 +1,188 @@
+{
+  "name": "an-editor-for-processing",
+  "version": "0.2.2",
+  "homepage": "http://kwipi.org/an-editor-for-processing",
+  "description": "Execute and store your Processing sketches",
+  "keywords": [
+    "processing",
+    "editor",
+    "processing.js"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://git.tiste.org:2345/kwipi/aefp.git"
+  },
+  "bugs": {
+    "url": "https://git.tiste.org/kwipi/aefp/issues"
+  },
+  "authors": [
+    "Kwipi <contact@kwipi.org> (http://kwipi.org)",
+    "t1st3 <contact@tiste.org> (http://www.tiste.org/)"
+  ],
+  "private": true,
+  "main": [
+    "./dist"
+  ],
+  "ignore": [
+    ".directory",
+    ".DS_Store",
+    ".git",
+    ".gitignore",
+    ".gitattributes",
+    ".mailmap",
+    "node_modules",
+    "package.json",
+    ".npmignore",
+    "bower_components",
+    ".bowerrc",
+    ".editorconfig",
+    ".eslintrc",
+    ".jscs.json",
+    ".istanbul.yml",
+    ".gitlab-ci.yml",
+    "src",
+    "test",
+    "gulpfile.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "requirejs": "~2.1.22",
+    "backbone.marionette": "marionette#~2.4.4",
+    "backbone": "~1.2.3",
+    "underscore": "~1.8.3",
+    "bootstrap-validator": "~0.9.0",
+    "fastclick": "~1.0.6",
+    "localforage": "~1.3.0",
+    "localforage-backbone": "~0.6.2",
+    "backbone.radio": "~1.0.2",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.5.0",
+    "font-awesome-animation": "~0.0.7",
+    "rangeslider.js": "~2.0.4",
+    "spin.js": "~2.3.2",
+    "crayon": "riccardoscalco/crayon",
+    "jquery-qrcode": "lrsjng/jquery-qrcode#~0.12.0",
+    "requirejs-tpl": "*",
+    "Processing.js": "~1.4.16",
+    "codemirror": "CodeMirror#~5.9.0"
+  },
+  "devDependencies": {
+    "chai": "~3.4.2",
+    "chai-jquery": "~2.0.1",
+    "mocha": "~2.3.4",
+    "sinon": "~1.17.2",
+    "sinon-chai": "domenic/sinon-chai#~2.8.0"
+  },
+  "overrides": {
+    "requirejs": {
+      "main": "require.js"
+    },
+    "requirejs-tpl": {
+      "main": []
+    },
+    "jquery": {
+      "main": [
+        "dist/jquery.min.js",
+        "dist/jquery.min.map"
+      ]
+    },
+    "underscore": {
+      "main": [
+        "underscore-min.js",
+        "underscore-min.map"
+      ]
+    },
+    "backbone": {
+      "main": [
+        "backbone-min.js",
+        "backbone-min.map"
+      ]
+    },
+    "backbone.radio": {
+      "main": [
+        "build/backbone.radio.min.js",
+        "build/backbone.radio.min.js.map"
+      ]
+    },
+    "backbone.babysitter": {
+      "main": []
+    },
+    "backbone.wreqr": {
+      "main": []
+    },
+    "backbone.marionette": {
+      "main": [
+        "lib/backbone.marionette.min.js",
+        "lib/backbone.marionette.map"
+      ]
+    },
+    "localforage": {
+      "main": "dist/localforage.min.js"
+    },
+    "localforage-backbone": {
+      "main": "dist/localforage.backbone.min.js"
+    },
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.min.js"
+      ]
+    },
+    "bootstrap-validator": {
+      "main": [
+        "dist/js/bootstrap-validator.min.js"
+      ]
+    },
+    "font-awesome": {
+      "main": []
+    },
+    "font-awesome-animation": {
+      "main": []
+    },
+    "crayon": {
+      "main": []
+    },
+    "fastclick": {
+      "main": "lib/fastclick.js"
+    },
+    "jquery-qrcode": {
+      "main": "dist/jquery.qrcode.min.js"
+    },
+    "spin.js": {
+      "main": [
+        "spin.js",
+        "jquery.spin.js"
+      ]
+    },
+    "rangeslider.js": {
+      "main": [
+        "dist/rangeslider.min.js"
+      ]
+    },
+    "mocha": {
+      "main": [
+        "mocha.js",
+        "mocha.css"
+      ]
+    },
+    "chai": {
+      "main": "chai.js"
+    },
+    "chai-jquery": {
+      "main": "chai-jquery.js"
+    },
+    "sinon-chai": {
+      "main": "lib/sinon-chai.js"
+    },
+    "Processing.js": {
+      "main": "processing.min.js"
+    },
+    "codemirror": {
+      "main": [
+        "lib/codemirror.js",
+        "mode/**/*"
+      ]
+    }
+  }
+}
