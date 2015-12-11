@@ -1,6 +1,6 @@
 {
   "name": "an-editor-for-processing",
-  "version": "0.2.2",
+  "version": "2.0.1",
   "homepage": "http://kwipi.org/an-editor-for-processing",
   "description": "Execute and store your Processing sketches",
   "keywords": [
