@@ -66,7 +66,8 @@
     "jquery-qrcode": "lrsjng/jquery-qrcode#~0.12.0",
     "requirejs-tpl": "*",
     "Processing.js": "~1.4.16",
-    "codemirror": "CodeMirror#~5.9.0"
+    "codemirror": "CodeMirror#~5.9.0",
+    "console-log-div": "~0.6.2"
   },
   "devDependencies": {
     "chai": "~3.4.2",
@@ -174,6 +175,9 @@
     },
     "sinon-chai": {
       "main": "lib/sinon-chai.js"
+    },
+    "console-log-div": {
+      "main": "console-log-div.js"
     },
     "Processing.js": {
       "main": "processing.min.js"
