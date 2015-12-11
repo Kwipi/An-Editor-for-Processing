@@ -151,7 +151,7 @@
     },
     "spin.js": {
       "main": [
-        "spin.js",
+        "spin.min.js",
         "jquery.spin.js"
       ]
     },
