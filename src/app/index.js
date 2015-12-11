@@ -12,7 +12,6 @@ require.config({
     'backbone-localforage': 'lib/localforage-backbone/dist/localforage.backbone.min',
     bootstrap: 'lib/bootstrap/dist/js/bootstrap.min',
     fastclick: 'lib/fastclick/lib/fastclick',
-    //s: 'lib/underscore.string/dist/underscore.string.min',
     'jquery-qrcode': 'lib/jquery-qrcode/dist/jquery.qrcode.min',
     rangeslider: 'lib/rangeslider.js/dist/rangeslider.min',
     spin: 'lib/spin.js/spin.min',
@@ -49,9 +48,6 @@ require.config({
     bootstrap: {
       deps: ['jquery']
     },
-    //s: {
-    //  exports: 's'
-    //},
     'jquery-qrcode': {
       deps: ['jquery']
     },
