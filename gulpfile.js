@@ -8,7 +8,12 @@ download = require('gulp-download'),
 bower = require('gulp-bower'),
 mainBowerFiles = require('main-bower-files'),
 chalk = require('chalk'),
-del = require('del');
+del = require('del'),
+plumber = require('gulp-plumber'),
+lintspaces = require('gulp-lintspaces'),
+util = require('gulp-util'),
+jscs = require('gulp-jscs'),
+eslint = require('gulp-eslint');
 
 /* INIT */
 
